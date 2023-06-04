@@ -1,0 +1,206 @@
+body{
+    background-image: url("/src/BG.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    font-family: 'Quicksand';
+  
+}
+
+
+.sidebar {
+    background-color: #f8f9fa;
+    height: 100vh;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .sidebar .sidebar-header {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .sidebar .nav-link {
+    color: #333;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+  }
+
+  .content {
+    margin-left: 300px;
+    padding: 20px;
+  }
+
+  @media (max-width: 767px) {
+    .sidebar {
+      width: 100%;
+      left: -100%;
+      transition: left 0.3s ease-in-out;
+    }
+
+    .sidebar.open {
+      left: 0;
+    }
+
+    .content {
+      margin-left: 0;
+    }
+    
+  }
+ 
+
+
+  .search-bar {
+    background: #ffffff52;
+
+border-radius: 43px;
+  }
+  
+  .search-bar input[type="text"],
+  .search-bar button[type="submit"] {
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+  }
+  
+  .search-bar input[type="text"]::placeholder {
+    color: white;
+  }
+  
+  .search-bar button[type="submit"] {
+    padding: 0;
+  }
+
+  .hedingfontsize{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    color: #4FBAE5;
+    margin-top: 10%;
+    
+  }
+  .offertext{
+    font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 1px;
+color: #ACB0BB;
+opacity: 0.55;
+  }
+
+  .shopnow{
+    background: linear-gradient(86.57deg, #63E1F2 1.17%, #45C3E5 85.08%);
+border-radius: 49px
+  }
+  
+  @media (max-width: 550px) {
+    .hedingfontsize{
+        font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    color: #4FBAE5;
+    margin-top: 3%;
+    }
+    .offertext{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    color: #ACB0BB;
+    opacity: 0.55;
+    }
+    .shopnow{
+        width: 71px;
+        height: 24px;
+        background: linear-gradient(86.57deg, #63E1F2 1.17%, #45C3E5 85.08%);
+        border-radius: 49px;
+        font-family: 'Quicksand';
+font-style: normal;
+font-weight: 7px;
+font-size: 8px;
+line-height: 12px;
+text-align: center;
+color: #FFFFFF;
+margin-top: -10%;
+    }
+  
+  }
+
+  .scrollable-container {
+    overflow-x: auto;
+  }
+  
+  .container {
+    display: flex;
+    /* flex-wrap: nowrap; */
+    min-width: fit-content;
+  }
+  
+  .square {
+    /* flex: 0 0 auto; */
+    width: 100px;
+    height: 100px;
+    
+    box-shadow: 0px 8px 6px -4px rgba(41, 166, 219, 0.15);
+    border-radius: 12px;
+    margin-right: 10px;
+    overflow:hidden;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Quicksand';
+    
+  }
+  
+  .scrollable-container::-webkit-scrollbar {
+    width: 6px; /* Adjust as needed */
+  }
+  
+  .scrollable-container::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  .scrollable-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+
+.tb td{
+    padding: 0.5rem 2rem;
+    color: #B7BBC4;
+}
+
+.roundCorner{
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem; border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+.responsive-container{background: #fffefe;
+  box-shadow: 0px 36px 40px -32px rgb(161, 207, 232);
+  border-radius: 24px;
+  color: #B7BBC4;
+}
+.colort{
+  color: #B7BBC4;
+}
+
+

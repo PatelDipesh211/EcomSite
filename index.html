@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EncatOn</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+    <!-- Include your custom CSS -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <img src="/src/logo.png" alt="" srcset="">
+        </div><br>
+        <ul class="nav flex-column">
+            <li class="nav-item ">
+                <a class="nav-link active" style="color: #149FDA;"><i class="fi fi-rr-shopping-cart"></i><span> Shop</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fi fi-rr-wallet"></i><span> Wallet</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fi fi-rr-square-plus"></i><span> More</span></a>
+            </li>
+            <li>
+                <button class="btn d-md-none" id="closeButton">Close</button>
+            </li>
+        </ul>
+    </div>
+
+    <div class="content">
+    <!--toggle button-->
+
+    <div class=" d-md-none">
+        <div class="row">
+            <div class="col-3">
+                <button class="btn d-md-none btn-l" id="toggleButton">
+                    <h1>&#9776;</h1>
+                </button>
+            </div>
+            <div class="col-4">
+                <img src="/src/logo.png" alt="" srcset="">
+            </div>
+        </div>
+
+    </div>
+    <!--toggle button-->
+    <div id="parent-container">
+
+        <br><br><br>
+        <div class="search-bar">
+            <form class="d-flex">
+              <input class="form-control" type="text" placeholder="Search online stores..." aria-label="Search">
+            </form>
+          </div>
+
+          
+          
+<br><br><br>
+
+
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                  <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                  <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                </ol>
+                
+                <div class="carousel-inner">
+                  <div class="carousel-item active" >
+                    <div class="container">
+                      <div class="row" style="background: #FFFFFF;
+                      box-shadow: 0px 29px 24px -24px #BECAD9;
+                      border-radius: 24px;">
+                        <div class="col-6">
+                          <div class="carousel-content text-center">
+                            <h3 class="hedingfontsize">12% cashback</h3>
+                            <p class="offertext">Shop for the latest shoes <br>
+                                for all your sports fun.</p>
+                                <a href="#" class="btn btn-primary shopnow">Shop now</a>
+                          </div>
+                        </div>
+                        <div class="col-6">
+                          <div class="carousel-logo">
+                            <img src="/src/slide.png" style="width: 100%; border-radius: 24px 0px 0px 24px;
+                            transform:  matrix(-1, 0, 0, 1, 0, 0);" alt="img">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item" >
+                  <div class="container">
+                    <div class="row" style="background: #FFFFFF;
+                    box-shadow: 0px 29px 24px -24px #BECAD9;
+                    border-radius: 24px;">
+                      <div class="col-6">
+                        <div class="carousel-content text-center">
+                          <h3 class="hedingfontsize">12% cashback</h3>
+                          <p class="offertext">Shop for the latest shoes <br>
+                              for all your sports fun.</p>
+                              <a href="#" class="btn btn-primary shopnow">Shop now</a>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="carousel-logo">
+                          <img src="/src/slide.png" style="width: 100%; border-radius: 24px 0px 0px 24px;
+                          transform:  matrix(-1, 0, 0, 1, 0, 0);" alt="img">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="carousel-item" >
+                <div class="container">
+                  <div class="row" style="background: #FFFFFF;
+                  box-shadow: 0px 29px 24px -24px #BECAD9;
+                  border-radius: 24px;">
+                    <div class="col-6">
+                      <div class="carousel-content text-center">
+                        <h3 class="hedingfontsize">12% cashback</h3>
+                        <p class="offertext">Shop for the latest shoes <br>
+                            for all your sports fun.</p>
+                            <a href="#" class="btn btn-primary shopnow">Shop now</a>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="carousel-logo">
+                        <img src="/src/slide.png" style="width: 100%; border-radius: 24px 0px 0px 24px;
+                        transform:  matrix(-1, 0, 0, 1, 0, 0);" alt="img">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+                
+
+                
+
+                  <!-- Add more carousel items here -->
+                </div>
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        </div>
+        <br><br><br>
+        <h1 style="color: #8BDAF0;">Categories</h1>
+
+        <div class="scrollable-container">
+          <div class="container">
+            <div class="square text-center" style="background: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), linear-gradient(214.72deg, #63D0F2 48.99%, #49C2E8 60.22%, #149FDA 89.43%); font-size: small;"><img src="/src/Vector.png" style="height: 35%; margin-top: 18%;" alt="" srcset=""> <div> <h5> travel </h5></div> </div>
+            <div class="square text-center" style="background:linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(216.82deg, #838DF0 51.71%, #808BF0 58.74%, #626FE7 87.72%);"><img src="/src/Vector1.png" style="height: 35%; margin-top: 18%;" alt="" srcset=""> <div> <h5> alcohol </h5></div> </div>
+            <div class="square text-center" style="background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), linear-gradient(242.82deg, #F08EB1 0%, #D64EAC 44.49%, #9352C6 89.57%);"><img src="/src/Vector2.png" style="height: 35%; margin-top: 18%;" alt="" srcset=""> <div> <h5> markets </h5></div> </div>
+            <div class="square text-center" style="background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), linear-gradient(198.94deg, #EDA052 12.64%, #EA9343 41.21%, #E36467 88.83%);"><img src="/src/Frame.png" style="height: 40%; margin-top: 18%;" alt="" srcset=""> <div> <h5> fashion </h5></div> </div>
+            <div class="square text-center" style="background: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), linear-gradient(214.72deg, #63D0F2 48.99%, #49C2E8 60.22%, #149FDA 89.43%);"><img src="/src/Vector.png" style="height: 40%; margin-top: 18%;" alt="" srcset=""> <div> <h5> technology </h5></div> </div>
+            <div class="square text-center" style="background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), linear-gradient(242.82deg, #F08EB1 0%, #D64EAC 44.49%, #9352C6 89.57%);"><img src="/src/Vector1.png" style="height: 40%; margin-top: 18%;" alt="" srcset=""> <div> <h5> food </h5></div> </div>
+            <div class="square text-center" style="background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(216.82deg, #838DF0 51.71%, #808BF0 58.74%, #626FE7 87.72%);"><img src="/src/Vector2.png" style="height: 40%; margin-top: 18%;" alt="" srcset=""> <div> <h5> fitness </h5></div> </div>
+            <div class="square text-center" style="background: #FFFFFF;"><img src="/src/Vector.png" style="height: 40%; margin-top: 15%;" alt="" srcset=""> <div> <h3 style="color: #D0DDEA;"> categories </h3></div> </div>
+          </div>
+          
+        </div>      
+
+
+
+        <br><br><br>
+        <h1 style="color: #8BDAF0;">Special Offers </h1>
+             
+        <div id="cardSlider" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card" style="background: #FFFFFF;
+                    box-shadow: 0px 29px 24px -24px #BECAD9;
+                    border-radius: 26px; margin-bottom: 4%;">
+                      <img src="/src/Rectangle 481.png" class="card-img-top" alt="Image 1">
+                      <div class="card-body">
+                        <h5 class="card-title" style="color: #B7BBC4;">Up to <samp style="color: #8BDAF0"> 8%  </samp>  cashback!</h5>
+                        <p class="card-text" style="color: #B7BBC4;">was 4%</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" style="background: #FFFFFF;
+                    box-shadow: 0px 29px 24px -24px #BECAD9;
+                    border-radius: 26px;">
+                      <img src="/src/Rectangle 481.png" class="card-img-top" alt="Image 1">
+                      <div class="card-body">
+                        <h5 class="card-title" style="color: #B7BBC4;">Up to <samp style="color: #8BDAF0"> 8%  </samp>  cashback!</h5>
+                        <p class="card-text" style="color: #B7BBC4;">was 4%</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" style="background: #FFFFFF;
+                    box-shadow: 0px 29px 24px -24px #BECAD9;
+                    border-radius: 26px;">
+                      <img src="/src/Rectangle 481.png" class="card-img-top" alt="Image 1">
+                      <div class="card-body">
+                        <h5 class="card-title" style="color: #B7BBC4;">Up to <samp style="color: #8BDAF0"> 8%  </samp>  cashback!</h5>
+                        <p class="card-text" style="color: #B7BBC4;">was 4%</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  
+                  </div>
+                </div>
+              </div>
+              <!-- Add more carousel items as needed -->
+            </div>
+            
+          </div>
+          <br><br>
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="responsive-container">
+                  <div class="row" style="margin: 8%; width: 84%;">
+                  <button class="col btn roundCorner colort" style="background: #F2F7FB;">Terms</button> 
+                  <button class="col btn roundCorner colort" style=" background:linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(216.82deg, #838DF0 51.71%, #808BF0 58.74%, #626FE7 87.72%);">Rates</button> 
+                  <button class="col btn roundCorner colort" style="background: #F2F7FB;">Tips</button>  
+                </div>
+                <div>
+                    <div class="container">
+                        <div class="row">
+                          
+                            <div class="table-responsive">
+                              <table class="tb table table-borderless">
+                                <tbody>
+                                  <tr>
+                                    <td>5.15%</td>
+                                    <td>on kid shoes.</td>
+                                  </tr>
+                                  <tr>
+                                    <td>4.2%</td>
+                                    <td>on women shoes.</td>                                    
+                                  </tr>
+                                  <tr>
+                                    <td>3%</td>
+                                    <td>on men shoes.</td>                                    
+                                  </tr>
+                                  <tr>
+                                    <td>2.5%</td>
+                                    <td>on clothes.</td>                                    
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+              </div>
+              </div>
+              <div class="col-md-6" style="margin-top: 5%;">
+                <div class="responsive-container ">
+                  <div class="row text-center" style="width: 84%;">
+                  <div class="col-3" style="margin-top: 7%;">
+                    <i class="fi fi-rr-shop" style="font-size: larger;background: #F4F5FD; border-radius: 20%; padding: 4%;"></i>
+                  </div>
+                  <div class="col-6" style="margin-top: 4%;">
+                    Orders
+                    <p style="font-size: smaller;">Purchases</p>
+                  </div>
+                  <div class="col-1" style="margin-top: 8%;">
+                    <i class="fi fi-rr-settings-sliders"></i>
+                  </div> 
+                    <div class="col-1" style="margin-top: 8%;">
+                      <i class="fi fi-sr-angle-down"></i>
+                    </div>
+                  </div>
+                
+                <div>
+                    <div class="container">
+                        <div class="row">
+                          
+                            <div class="table-responsive">
+                              <table class="table table-borderless colort">
+                                <tbody>
+                                  <tr>
+                                    <td><img src="/src/Rectangle 4646.png" alt=""></td>
+                                    <td><div><h6>Adidas</h6><span><p style="font-size: 0.8rem; line-height: 0.1;">9th April $1,282</p></span></div></td>
+                                    <td><div><h6>+ $ 37.5</h6><span><p style="font-size: 0.8rem; line-height: 0.1;">+ 5.18</p></span></div></td>
+                                  </tr>
+                                  <tr>
+                                    <td><img src="/src/Rectangle 4646.png" alt=""></td>
+                                    <td><div><h6>Adidas</h6><span><p style="font-size: 0.8rem; line-height: 0.1;">9th April $1,282</p></span></div></td>
+                                    <td><div><h6>+ $ 37.5</h6><span><p style="font-size: 0.8rem; line-height: 0.1;">+ 5.18</p></span></div></td>
+                                  </tr>
+                                  <tr>
+                                    <td><img src="/src/Rectangle 4646.png" alt=""></td>
+                                    <td><div><h6>Adidas</h6><span><p style="font-size: 0.8rem; line-height: 0.1;">9th April $1,282</p></span></div></td>
+                                    <td><div><h6>+ $ 37.5</h6><span><p style="font-size: 0.8rem; line-height: 0.1;">+ 5.18</p></span></div></td>
+                                  </tr>
+                                  <tr>
+                                    <td><img src="/src/Rectangle 4646.png" alt=""></td>
+                                    <td><div><h6>Adidas</h6><span><p style="font-size: 0.8rem; line-height: 0.1;">9th April $1,282</p></span></div></td>
+                                    <td><div><h6>+ $ 37.5</h6><span><p style="font-size: 0.8rem; line-height: 0.1;">+ 5.18</p></span></div></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                            <div class="text-center"><i class="fi fi-sr-angle-down"></i></div>
+                          
+                        </div>
+                      </div>
+                     
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+    
+        </div>
+    </div>
+
+    <!-- Include Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById('toggleButton').addEventListener('click', function () {
+            document.getElementById('sidebar').classList.toggle('open');
+            document.getElementById('myCarousel').style.display = "none";
+            document.getElementById('cardSlider').style.display = "none";
+        });
+        document.getElementById('closeButton').addEventListener('click', function () {
+            document.getElementById('sidebar').classList.remove('open');
+            document.getElementById('myCarousel').style.display = "block";
+            document.getElementById('cardSlider').style.display = "block";
+        });
+
+
+
+        document.addEventListener("DOMContentLoaded", function() {
+  const slider = document.querySelector(".slider");
+  const prevButton = document.querySelector(".prev-button");
+  const nextButton = document.querySelector(".next-button");
+  const slideWidth = document.querySelector(".slide").clientWidth;
+  let slideIndex = 0;
+
+  prevButton.addEventListener("click", function() {
+    slideIndex = (slideIndex - 1 + 3) % 3;
+    updateSliderPosition();
+  });
+
+  nextButton.addEventListener("click", function() {
+    slideIndex = (slideIndex + 1) % 3;
+    updateSliderPosition();
+  });
+
+  function updateSliderPosition() {
+    const newPosition = -slideIndex * slideWidth;
+    slider.style.transform = `translateX(${newPosition}px)`;
+  }
+});
+    </script>
+</body>
+
+</html>
